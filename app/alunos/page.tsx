@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { prisma } from "../lib/prisma";
 import { excluirAluno } from "./actions";
-
+export const dynamic = "force-dynamic";
 export default async function AlunosPage() {
   const alunos = await prisma.aluno.findMany({
     orderBy: {

@@ -1,26 +1,21 @@
-# Dependências e arquivos gerados
 node_modules
 .next
 out
 build
 coverage
 
-# Git
 .git
 .gitignore
 
-# Variáveis de ambiente e segredos
 .env
 .env.*
 !.env.example
 
-# Banco de dados local
 prisma/dev.db
 prisma/dev.db-journal
 prisma/*.sqlite
 prisma/*.sqlite3
 
-# Arquivos do sistema
 .DS_Store
 *.log
 npm-debug.log*
